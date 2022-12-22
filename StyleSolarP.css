@@ -36,24 +36,80 @@ h3 {
 }
 
 h4 {
-	margin-top: 10px;
 	font-weight: 700;
 	font-size: 18px;
 	line-height: 24.52px;
 }
 
 text {
+	display: block;
 	font-weight: 400px;
 	font-size: 14px;
 	line-height: 19.07px;
 	color: #303030;
 }
 
+a {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 24.52px;
+}
+
+nav {
+	margin-top: 60px;
+	margin-bottom: 125px;
+}
+
+nav a {
+	margin-right: 40px;
+}
+
+img {
+	display: block;
+}
+
+.Textes {
+	display: inline-block;
+	max-width: 510px;
+}
+
+.Services img {
+	display: inline-block;
+	margin-top: 84px;
+	width: 550px;
+}
+
 .Services {
+	display: table;
+	margin-top: 55px;
+	margin-left: auto;
+	margin-right: auto;
+	/* margin-left: 225px; */
+}
+
+.Services text {
+	display: block;
+	margin-top: 50px;
+}
+
+.Green_Tariff {
+	margin-top: 150px;
 	margin-left: 360px;
 }
 
-.Services text {	
-	margin-top: 60px;
+.Green_Tariff content {
 	display: block;
+}
+
+.content_1__text text {
+	display: inline-block;
+	margin-left: 40px;
+}
+
+.content_1__text img {
+	display: inline-block;
+}
+
+.Content_1__textes {
+	margin-top: 100px;
 }
