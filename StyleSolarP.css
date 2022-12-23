@@ -50,6 +50,7 @@ text {
 }
 
 a {
+	display: inline-block;
 	font-weight: 400;
 	font-size: 18px;
 	line-height: 24.52px;
@@ -68,37 +69,64 @@ img {
 	display: block;
 }
 
-.Textes {
-	display: inline-block;
-	max-width: 510px;
+content {
+	display: block;
 }
 
-.Services img {
+form input {
+	display: block;
+	width: 510px;
+	height: 50px;
+	margin-top: 60px;
+	background-color: rgb(0, 0, 0, 0);
+	border-bottom: 2px white solid;
+}
+
+::-webkit-input-placeholder {
+	color: white;
+}
+
+INPUT[type="text"] {
+	color: white;
+}
+
+.services {
+	display: table;
+	margin-top: 55px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.services__textes {
+	display: inline-block;
+	max-width: 510px;
+} 
+
+.services img {
 	display: inline-block;
 	margin-top: 84px;
 	width: 550px;
 }
 
-.Services {
-	display: table;
-	margin-top: 55px;
-	margin-left: auto;
-	margin-right: auto;
-	/* margin-left: 225px; */
-}
-
-.Services text {
+.services text {
 	display: block;
 	margin-top: 50px;
 }
 
-.Green_Tariff {
+.green_Tariff {
+	display: table;
 	margin-top: 150px;
-	margin-left: 360px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-bottom: 150px;
 }
 
-.Green_Tariff content {
+.green_Tariff content {
 	display: block;
+}
+
+.content_1 {
+	display: inline-block;
 }
 
 .content_1__text text {
@@ -110,6 +138,132 @@ img {
 	display: inline-block;
 }
 
-.Content_1__textes {
+.content_1__textes {
 	margin-top: 100px;
+}
+
+.content_1__textes__block_1 {
+	display: inline-block;
+}
+
+.content_1__textes__block_2 {
+	display: inline-block;
+	margin-left: 34.5px;
+}
+
+.content_2 {
+	display: inline-block;
+	margin-top: 60px;
+	margin-left: 90px;
+	vertical-align: top;
+}
+
+.quote {
+	padding-top: 128px;
+	padding-bottom: 144px;
+	text-align: center;
+	background: url("pictures/SolarBg2.png");
+	font-size: 42px;
+	font-weight: 400;
+	line-height: 57px;
+	letter-spacing: 0em;
+	color: white;
+}
+
+.clients {
+	display: table;
+	margin-top: 150px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.clients content{
+	margin-top: 60px;
+}	
+
+.clients img {
+	display: inline-block;
+}
+
+.clients__text {
+	display: inline-block;
+	margin-left: 91px;
+}
+
+.five_steps {
+	display: table;
+	margin-top: 182px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.five_steps__textes {
+	display: inline-block;
+}
+
+.five_steps img {
+	display: inline-block;
+	margin-left: 25px;
+}
+
+.five_steps__textes h3 {
+	display: block;
+	max-width: 324px;
+	padding-bottom: 30px;
+}
+
+.textes__text {
+	margin-top: 30px;
+	max-width: 450px;
+}
+
+.textes__text p {
+	display: block;
+}
+
+.register {
+	display: inline-block;
+}
+
+.register button {
+	width: 200px;
+	height: 30px;
+	font-size: 18px;
+	margin-top: 89px;
+	background-color: rgb(0, 0, 0, 0);
+	color: white;
+}
+
+
+footer {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	margin-top: 150px;
+	padding-top: 70px;
+	background: url("pictures/FtBg.png");
+}
+
+footer h3 {
+	color: white;
+}
+
+footer input {
+	background-color: rgb(0, 0, 0, 0);
+}
+
+.footer__textes {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 91px;
+}
+
+.textes_textes {
+	margin-top: 60px;
+}
+
+.textes_textes p {
+	display: block;
+	margin-bottom: 30px;
+	color: white;
 }
